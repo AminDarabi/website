@@ -1,16 +1,12 @@
 <template>
-  <div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="~/assets/images/avatar.jpg" alt="Woman's Face">
-  <div class="text-center space-y-2 sm:text-left">
-    <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold">
-        Erin Lindford
-      </p>
-      <p class="text-slate-500 font-medium">
-        Product Engineer
-      </p>
-    </div>
-    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+<div class="w-2/3 md:w-1/2 mx-auto card lg:card-side shadow-xl">
+  <div class="md:w-1/3">
+    <figure><img class="object-scale-down" src="~/assets/images/pic.jpg" alt="It's me!"/></figure>
+  </div>
+    <div class="md:w-2/3 card-body dark:bg-zinc-800">
+    <h2 class="card-title capitalize text-sky-700 md:pb-4">It's Amin Darabi!</h2>
+    <p class="text-slate-600 text-justify">A Computer Engineer and also a computer scientist who enjoys playing board games and coding.</p>
+    <code class="text-fuchsia-900 font-bold">/Iran/Tehran/Idle!</code>
   </div>
 </div>
 </template>
