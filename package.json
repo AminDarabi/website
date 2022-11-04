@@ -1,4 +1,8 @@
 {
+  "name": "website",
+  "version": "0.1",
+  "description": "Amin Darabi personal website",
+  "author": {"name": "Amin Darabi", "email": "amin@amindarabi.ir", "url": "https://amindarabi.ir"},
   "private": true,
   "scripts": {
     "build": "nuxt build",
