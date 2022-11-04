@@ -6,6 +6,14 @@
     </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+useHead({
+  title: 'Amin Darabi',
+  meta: [
+    { name: 'Amin Darabi', content: 'Personal website.'},
+  ],
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+  ]
+})
 </script>
