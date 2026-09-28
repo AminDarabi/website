@@ -41,7 +41,7 @@ export const profile = {
   tagline:
     'ML researcher and engineer specializing in efficient large-scale training, GPU kernel development, and low-precision training.',
   location: 'Montreal, Canada',
-  email: 'darabiamin@hotmail.com',
+  email: 'amin@darabi.one',
   github: 'https://github.com/AminDarabi',
   linkedin: 'https://www.linkedin.com/in/amindarabi/',
   affiliations: [
