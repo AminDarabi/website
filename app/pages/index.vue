@@ -90,8 +90,8 @@ useHead({
       <div class="space-y-4">
         <PublicationItem v-for="pub in publications" :key="pub.href" :publication="pub" />
       </div>
-      <NuxtLink to="/research" class="btn btn-ghost btn-sm mt-6 text-primary">
-        Research &amp; projects <AppIcon name="right" class="size-4" />
+      <NuxtLink to="/projects" class="btn btn-ghost btn-sm mt-6 text-primary">
+        All projects <AppIcon name="right" class="size-4" />
       </NuxtLink>
     </section>
   </div>

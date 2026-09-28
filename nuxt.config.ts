@@ -35,8 +35,9 @@ export default defineNuxtConfig({
     },
   },
 
-  // Old /skills/* sub-pages were merged into /skills.
+  // Old /skills/* sub-pages were merged into /skills; /research was renamed to /projects.
   routeRules: {
+    '/research': { redirect: '/projects' },
     '/skills/ce': { redirect: '/skills' },
     '/skills/cs': { redirect: '/skills' },
     '/skills/lang': { redirect: '/skills' },
@@ -46,7 +47,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/skills/ce', '/skills/cs', '/skills/lang'],
+      routes: ['/', '/research', '/skills/ce', '/skills/cs', '/skills/lang'],
       failOnError: true,
       // Emit about.html instead of about/index.html so GitHub Pages serves /about without a redirect.
       autoSubfolderIndex: false,
