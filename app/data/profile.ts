@@ -55,7 +55,8 @@ export const profile = {
     'GPU kernels (Triton / CUDA)',
     'Distributed multi-node training',
     'Foundation models for time series & neuroimaging',
-    'Test-time adaptation',
+    'Test-time adaptation & training',
+    'Long-horizon agents',
   ],
 }
 
@@ -63,8 +64,8 @@ export const bio: string[] = [
   `I'm an ML researcher and engineer working on making large-model training cheaper, faster, and more
    stable — through low-precision (FP8 / FP4) arithmetic, custom GPU kernels, and efficient distributed
    training on multi-node, multi-GPU clusters.`,
-  `At Huawei Canada, as an Efficient AI Researcher, I work on low-bit training, model pruning, and
-   test-time adaptation, write kernels in Triton and CUDA, and pre-train large transformers at scale.
+  `At Huawei Canada, as an Efficient AI Researcher, I've worked on low-bit training, model pruning, and
+   test-time adaptation, and I'm currently working on test-time training and long-horizon agents.
    At Mila – Quebec AI Institute and Université de Montréal, I do research in Professor
    Irina Rish's CERC-AAI Lab on foundation models for time-series and neuroimaging data.`,
   `My path started with hardware. I wrote my first C++ program in middle school, and a love for
@@ -87,8 +88,7 @@ export const experience: TimelineEntry[] = [
     end: 'Present',
     details: [
       'Low-bit training (FP8 / FP4), model pruning, and test-time adaptation.',
-      'GPU kernel development in Triton and CUDA.',
-      'Pre-training large transformers in multi-node, multi-GPU distributed setups.',
+      'Currently working on test-time training and long-horizon agents.',
     ],
   },
   {
