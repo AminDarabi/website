@@ -2,8 +2,8 @@
 import { projects, publications } from '~/data/profile'
 
 useSeoMeta({
-  title: 'Research',
-  ogTitle: 'Research · Amin Darabi',
+  title: 'Projects',
+  ogTitle: 'Projects · Amin Darabi',
   description: 'Publications and research projects by Amin Darabi on low-precision training, efficient deep learning, foundation models, and bioinformatics.',
 })
 </script>

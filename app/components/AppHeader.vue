@@ -2,7 +2,7 @@
 const nav = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
-  { to: '/research', label: 'Research' },
+  { to: '/projects', label: 'Projects' },
   { to: '/skills', label: 'Skills' },
   { to: '/contact', label: 'Contact' },
 ]
