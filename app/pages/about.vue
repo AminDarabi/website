@@ -13,7 +13,7 @@ useSeoMeta({
     <section aria-labelledby="bio">
       <h1 id="bio" class="section-title text-3xl">About me</h1>
       <div class="max-w-3xl space-y-4 text-lg leading-relaxed text-base-content/85">
-        <p v-for="(paragraph, i) in bio" :key="i">{{ paragraph }}</p>
+        <p v-for="(paragraph, i) in bio" :key="i" class="text-justify hyphens-auto">{{ paragraph }}</p>
       </div>
     </section>
 
