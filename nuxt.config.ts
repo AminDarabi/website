@@ -27,7 +27,9 @@ export default defineNuxtConfig({
         { name: 'referrer', content: 'strict-origin-when-cross-origin' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        // SVG favicon adapts to light/dark mode; the .ico is a fallback for older browsers.
+        { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
     },
