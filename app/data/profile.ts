@@ -52,7 +52,6 @@ export const profile = {
   interests: [
     'Low-precision training (FP8 / FP4)',
     'Efficient large-scale training',
-    'GPU kernels (Triton / CUDA)',
     'Distributed multi-node training',
     'Foundation models for time series & neuroimaging',
     'Test-time adaptation & training',
