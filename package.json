@@ -20,15 +20,15 @@
     "node": "^22.19.0 || ^24.11.0 || >=26.0.0"
   },
   "dependencies": {
-    "nuxt": "^4.5.2",
-    "vue": "^3.5.43",
+    "nuxt": "^4.6.1",
+    "vue": "^3.5.44",
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
-    "daisyui": "^5.7.46",
+    "daisyui": "^5.7.50",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
-    "vue-tsc": "^3.3.11"
+    "vue-tsc": "^3.3.13"
   }
 }
